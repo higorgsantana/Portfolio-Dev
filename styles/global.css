@@ -29,3 +29,7 @@
   --text-md: 400 16px/140% var(--mavenpro);
   --text-sm: 400 14px/140% var(--mavenpro);
 }
+
+body {
+  max-width: 1040;
+}

@@ -1,8 +1,6 @@
 header {
-  display: grid;
   place-items: center;
   text-align: center;
-  padding: 3rem 1.5rem;
   background-image: url(../assets/Background_Intro.png);
   background-size: cover;
   background-position: center;
@@ -16,8 +14,6 @@ header {
   border-radius: 50%;
   border: 2px solid var(--red);
   display: inline-flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .avatar {
@@ -43,8 +39,8 @@ header {
 
 h1 {
   font: var(--title-lg);
-  margin-block: 8px 20px;
   color: var(--gray-100);
+  margin-block: 8px 20px;
 }
 
 .intro-description {
@@ -54,17 +50,13 @@ h1 {
 }
 
 .badges {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 16px;
   margin-block: 80px 94px;
 }
 
 .badge {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
   padding: 8px 16px;
   border-radius: 999px;
   background: var(--gray-400);
@@ -84,7 +76,4 @@ h1 {
   color: var(--gray-300);
 }
 
-.typescript {
-  color: var(--blue);
-}
 
