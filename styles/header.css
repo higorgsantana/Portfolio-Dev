@@ -70,11 +70,6 @@ h1 {
   background: var(--gray-400);
 }
 
-.badge:hover {
-  transform: translateY(-2px);
-  background: rgba(255, 255, 255, 0.1);
-}
-
 .badge img {
   width: 24px;
   height: 24px;
@@ -87,6 +82,9 @@ h1 {
 
 .arrow {
   color: var(--gray-300);
+}
 
+.typescript {
+  color: var(--blue);
 }
 
