@@ -30,6 +30,13 @@
   --text-sm: 400 14px/140% var(--mavenpro);
 }
 
-body {
-  max-width: 1040;
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1040px;
+  padding-inline: 120px;
+  margin-inline: auto;
 }
