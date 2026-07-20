@@ -1,17 +1,5 @@
-.red {
-  color: var(--red);
-}
-
 .blue {
   color: var(--blue);
-}
-
-.flex {
-  display: flex;
-}
-
-.flex-wrap {
-  flex-wrap: wrap;
 }
 
 .gap-24 {

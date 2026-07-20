@@ -1,5 +1,4 @@
 .projects {
-  width: 100%;
   background-color: var(--gray-500);
   padding-block: 72px 144px;
 }
@@ -14,27 +13,25 @@
 }
 
 .projects h2 {
-  font: var(--title-md);
-  color: var(--gray-100);
   margin-bottom: 56px;
   text-align: center;
 }
 
-.cards {
+.project-cards {
   display: grid;
   grid-template-columns: repeat(3, 330px);
   justify-content: center;
   gap: 24px;
 }
 
-.card {
+.project-card {
   background-color: var(--gray-400);
   border-radius: 12px;
   padding: 12px;
   border: 1px solid var(--gray-400);
 }
 
-.card:hover {
+.project-card:hover {
   transform: translateY(-10px);
   border-color: var(--gray-300);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -45,18 +42,10 @@
 }
 
 .projects h3 {
-  font: var(--title-sm);
-  color: var(--gray-100);
   margin-bottom: 8px;
 }
 
-.projects p {
-  font: var(--text-sm);
-  color: var(--gray-200);
-}
-
 .subtitle {
-  font: var(--subtitle);
   margin-bottom: 8px;
   display: block;
   text-align: center;

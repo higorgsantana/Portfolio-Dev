@@ -40,3 +40,26 @@ a {
   padding-inline: 120px;
   margin-inline: auto;
 }
+
+span {
+  font: var(--subtitle);
+  color: var(--red);
+}
+
+h2 {
+  font: var(--title-md);
+  color: var(--gray-100);
+  text-align: center;
+}
+
+h3 {
+  font: var(--title-sm);
+  color: var(--gray-100);
+}
+
+p {
+  font: var(--text-sm);
+  color: var(--gray-200);
+}
+
+
