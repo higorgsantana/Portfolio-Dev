@@ -45,7 +45,6 @@ h1 {
 }
 
 .intro-description {
-  max-width: 680px;
   color: var(--gray-300);
   font: var(--text-sm);
 }
