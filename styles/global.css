@@ -49,7 +49,6 @@ span {
 h2 {
   font: var(--title-md);
   color: var(--gray-100);
-  text-align: center;
 }
 
 h3 {
