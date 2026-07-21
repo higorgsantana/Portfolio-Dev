@@ -76,6 +76,4 @@ cd Portfolio-Dev
 - **GitHub:** [github.com/higorgsantana](https://github.com/higorgsantana)
 - **E-mail:** higorgdev@gmail.com
 
----
 
-Feito com 💻 por **Higor Guilherme**
