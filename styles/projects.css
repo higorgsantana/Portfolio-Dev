@@ -4,17 +4,18 @@
 }
 
 .projects img {
+  display: block;
   width: 100%;
-  height: auto;
+  height: 156px;
+  object-fit: cover;
   border-radius: 8px;
   margin-bottom: 20px;
-  object-fit: cover;
-  display: block;
+  
 }
 
 .project-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(330px, 330px));
+  grid-template-columns: repeat(auto-fit, minmax(min(330px, 100%), 1fr));
   gap: 24px;
 }
 
@@ -23,15 +24,18 @@
   border-radius: 12px;
   padding: 12px;
   border: 1px solid var(--gray-400);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
 .project-card:hover {
   transform: translateY(-10px);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
   border-color: var(--gray-300);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .project-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
   padding: 4px;
 }
